@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color">
+        <item>Color</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="direction">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+
+    <string-array name="face">
+        <item>Both</item>
+        <item>One</item>
+    </string-array>
+/*
+    <string-array name="count">
+        <item>X1</item>
+        <item>X2</item>
+        <item>X3</item>
+        <item>...</item>
+        <item>Xn</item>
+    </string-array>
+
+    <string-array name="layout">
+        <item>아직 기능이 구현되지 않았습니다.</item>
+        <item>layout</item>
+    </string-array>
+
+    <string-array name="paperprientation">
+        <item>vertical</item>
+        <item>horizontal</item>
+    </string-array>*/
+
+</resources>

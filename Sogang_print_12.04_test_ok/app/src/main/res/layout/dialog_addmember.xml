@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="세로,가로"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/Horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="세로"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/Vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가로"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="컬러,흑백"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="컬러"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/Black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="흑백"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="단면,양면"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/One"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단면"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/Both"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="양면"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="매수"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
